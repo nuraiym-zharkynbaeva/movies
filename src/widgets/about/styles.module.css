@@ -1,0 +1,141 @@
+.about {
+    background: url('/aboutbg.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1770px;
+}
+
+.container h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+    margin-top: 159px;
+}
+
+.container p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    width: 730px;
+
+
+
+}
+
+.p {
+    margin-bottom: 10px;
+}
+
+.count {
+    display: flex;
+    gap: 107px;
+    margin-bottom: 464px;
+}
+
+.movies h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 71px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.movies h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.series h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 71px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.series h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.splash {
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Анимационные классы */
+.fadeInLeft {
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+
+.fadeInUp1 {
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
+}
+
+.fadeInUp2 {
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+}
+
+.fadeInUp3 {
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
+}

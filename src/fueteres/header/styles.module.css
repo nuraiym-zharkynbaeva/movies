@@ -1,3 +1,94 @@
-.header{
-      
+.header {
+  width: 1920px;
+  padding: 32px 0 21px 0;
+  background-color: #191919;
 }
+
+.container {
+  width: 1770px;
+  margin: 0 auto;
+  display: flex;
+  gap: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left {
+  display: flex;
+  gap: 56px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navList li a {
+  color: white;
+  text-decoration: none;
+  font-family:  "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 190px;
+  height: 48px;
+  border-radius: 60px;
+  padding: 10px 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.actions {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navList li a:hover {
+  background-color: #E13C52;
+}
+
+.iconLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  font-family:  "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 320px;
+  height: 48px;
+  background-color: #232229;
+  border-radius: 13px;
+
+}
+
+.search input {
+  font-family:  "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #4E4C5E;
+  background-color: #232229;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.select {}

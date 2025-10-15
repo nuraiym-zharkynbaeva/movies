@@ -1,0 +1,138 @@
+.inception {
+  background: url('/aboutbg.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  position: relative;
+}
+
+.container {
+  width: 1770px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  margin-top: 329px;
+}
+
+.container p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #A7A7A7;
+  margin-bottom: 22px;
+}
+
+.container h4 {
+  width: 607px;
+  height: 170px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 55px;
+}
+
+.incepbg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+.trailerModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+}
+
+.trailerContent {
+  position: relative;
+  width: 80%;
+  max-width: 900px;
+}
+
+.trailerContent iframe {
+  width: 100%;
+  height: 1000px;
+  border: none;
+  border-radius: 8px;
+}
+
+.closeButton {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInOnly {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInLeft1 {
+  animation: fadeInLeft 1s ease forwards;
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+
+.fadeInLeft2 {
+  animation: fadeInLeft 1s ease forwards;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+.fadeInLeft3 {
+  animation: fadeInLeft 1s ease forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
+}
+
+.fadeInButton {
+  animation: fadeInOnly 1s ease forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}

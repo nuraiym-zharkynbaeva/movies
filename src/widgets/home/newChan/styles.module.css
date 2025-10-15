@@ -1,0 +1,60 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 470px;
+
+
+}
+
+.new {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.new h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.view a {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #FFFFFF;
+
+
+}
+
+.view {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.new__right {
+    display: flex;
+    gap: 63px;
+}
+
+.newChan {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+
+.hover {
+    background: #000;
+}

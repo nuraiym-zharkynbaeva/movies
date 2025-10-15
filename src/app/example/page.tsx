@@ -1,7 +1,9 @@
+import FriendsSection from "@/widgets/oneseries/friends/FriendsSection"
+
 const page = () => {
   return (
     <div>
-      <h1>It`s just example page.</h1>
+      <FriendsSection/>
     </div>
   )
 }

@@ -1,0 +1,210 @@
+.fbg {
+    background: url('/fbg.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+padding-bottom: 30px;
+
+}
+
+.container {
+    width: 1770px;
+    margin: 0 auto;
+
+
+}
+
+.friend__right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.friends__left h3 {
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    
+    cursor: pointer;
+
+}
+
+.friends__left h1 {
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.friends__left p {
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #A7A7A7;
+    margin-bottom: 37px;
+}
+
+.friends__left h2 {
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+    width: 607px;
+    height: 170px;
+
+}
+
+.friends__left {
+    margin-bottom: 48px;
+    margin-top: 330px;
+}
+
+.prodCont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 60px;
+    margin-bottom: 30px;
+}
+
+.overlay {
+    width: 153px;
+    height: 33px;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 26px;
+    gap: 10px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+
+
+}
+
+.overlay h3 {
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.season {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.trailerModal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+   
+  }
+  
+  .trailerContent {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  .trailerContent iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+.selector{
+    display: flex;
+    align-items: center;
+   gap: 17px;
+   margin-top: 102px;
+}
+  
+
+@keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInOnly {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeInLeft1 {
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  
+  .fadeInLeft2 {
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
+  }
+  
+  .fadeInLeft3 {
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+  }
+  
+  .fadeInButton {
+    animation: fadeInOnly 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+  

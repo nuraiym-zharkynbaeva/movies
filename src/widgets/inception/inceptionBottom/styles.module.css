@@ -1,0 +1,34 @@
+.sliderWrapper {
+  width: 1770px;
+  margin: 0 auto;
+  margin-top: 115px;
+  display: flex;
+  gap: 26px;
+}
+
+.swiper {
+  padding-bottom: 194px;
+}
+
+.slide {
+  width: auto;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+
+  cursor: pointer;
+}
+
+:global(.swiper-button-next),
+:global(.swiper-button-prev) {
+  color: white;
+  background-color: #000000CC;
+  width: 70px;
+  height: 117px;
+
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  top: 150px;
+  right: 0;
+
+}

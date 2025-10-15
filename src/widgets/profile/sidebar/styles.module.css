@@ -1,0 +1,116 @@
+.bg{
+    background: url('/sibg.png') center/cover no-repeat;
+    display: flex;
+  padding: 100px 0;
+    width: 1920px;
+  
+}
+.container{
+    width: 1770px;
+    margin: 0 auto;
+    display: flex;
+}
+.top img{
+   margin-left: 20px;
+}
+.top p{
+    font-family:  "Ubuntu", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #929090;
+text-align: center;
+}
+.top h4{
+    font-family:  "Ubuntu", sans-serif;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+}
+.top h3{
+    font-family:  "Ubuntu", sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+}
+.bottom a{
+    font-family:  "Ubuntu", sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: none;
+color: #FFFFFF;
+
+}
+.bottom{
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    
+    gap: 21px;
+}
+.bottom a{
+    width: 150px;
+}
+.top div{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    padding: 10px 30px;
+    border-radius: 60px;
+    width: 150px;
+   
+}
+.top div:hover{
+    background-color: #E13C52;
+}
+.left__side{
+    width: 370px;
+    border-right: 1px solid #616161;
+}
+.top button{
+    width: 52px;
+height: 52px;
+border-radius: 100%;
+background-color: #E13C52;
+border: none;
+margin-left: 80px;
+
+}
+.top{
+    width: 250px;
+}
+.right__side{
+    padding: 0 43px 0 70px;
+}
+
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .menuItem h3 {
+    color: #ccc;
+    transition: 0.3s;
+  }
+  
+  .menuItem h3:hover {
+    color: white;
+  }
+  
+
+
+   
+  

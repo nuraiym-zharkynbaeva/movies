@@ -1,3 +1,126 @@
-.footer{
-      
+.footer {
+   background-color: #191919;
+   padding: 60px 0 32px 0;
+width: 1920px;
+  }
+  .container{
+    margin: 0 auto;
+    width: 1770px;
+    display: flex;
+    gap: 450px;
+  }
+ .top{
+    display: flex;
+    gap: 20px;
+    font-family:  "Ubuntu", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+color: #616161;
+ } 
+ .socials{
+  display: flex;
+  align-items: center;
+gap: 40px;
+  margin-bottom: 55px;
+  margin-top: 32px;
+   
+ }
+ .bottom p{
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #616161;
+    cursor: pointer;
+ }
+ .stores{
+    display: flex;
+    gap: 20px;
+   
+ }
+ .p{
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+     color: #8D8D8D;
+     width: 280px;
+height: 88px;
+margin-top: 94px;
+margin-bottom: 33px;
 }
+  .user{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family:  "Ubuntu", sans-serif;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: 0%;
+color:#FFFFFF ;
+cursor: pointer;
+  }
+  .left p{
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+color: #797979;   
+   cursor: pointer;
+
+    
+}
+.footer__right{
+    display: flex;
+    gap: 190px;
+
+}
+.footer__left{
+    margin-top: 40px;
+}
+.center p{
+    text-decoration: none;
+    font-family:  "Ubuntu", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+letter-spacing: 0%;
+color: #797979;  
+cursor: pointer;
+}
+.center h4{
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#FFFFFF ;
+    cursor: pointer;
+}
+.right h4{
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#FFFFFF ;
+    cursor: pointer;
+}
+.right p{
+    text-decoration: none;
+    font-family:  "Ubuntu", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+letter-spacing: 0%;
+color: #797979;  
+cursor: pointer;
+}
+  
+  

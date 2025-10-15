@@ -1,0 +1,35 @@
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family:  "Ubuntu", sans-serif;
+font-weight: 700;
+font-size: 35px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+.profileSide input{
+    display: block;
+    margin-bottom: 14px;
+    width: 426px;
+height: 60px;
+border: none;
+background-color: #313131E5;
+border-radius: 8px;
+padding-top: 10px;
+padding-right: 124px;
+padding-bottom: 10px;
+padding-left: 21px;
+color: #FFFFFF;
+outline: none;
+font-family:  "Ubuntu", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.btn{
+    margin-top: 30px;
+}
