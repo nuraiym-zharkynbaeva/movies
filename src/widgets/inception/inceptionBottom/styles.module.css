@@ -19,8 +19,8 @@
   cursor: pointer;
 }
 
-:global(.swiper-button-next),
-:global(.swiper-button-prev) {
+.sliderWrapper :global(.swiper-button-next),
+.sliderWrapper :global(.swiper-button-prev){
   color: white;
   background-color: #000000CC;
   width: 70px;
@@ -31,4 +31,16 @@
   top: 150px;
   right: 0;
 
+}
+
+.sliderWrapper :global(.swiper-button-prev) {
+  left: 0;
+  right: auto;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.sliderWrapper :global(.swiper-button-next) {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
